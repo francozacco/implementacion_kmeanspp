@@ -1,7 +1,11 @@
 # Una implementacion de K-means++
 El notebook (y el módulo) puede correrse de dos maneras, utilizando anaconda o creando una imagen de Docker utilizando el Dockerfile que se encuentra en este repositorio. A continuación explicitamos cada una de ellas.
 ## Utilizando Anaconda
-Para correrlo utilizando Anaconda sera necesario crear un enviroment basado en python 3.7. Ademas serán necesarias las librerias con las siguientes versiones:
+Para correrlo utilizando Anaconda sera necesario crear un enviroment basado en python 3.7 con el siguiente comando.
+
+`conda create --name my_env python=3.7 anaconda`
+
+Ademas serán necesarias las librerias con las siguientes versiones:
 * scikit-learn 0.21.2
 * numpy 1.16.4 
 * pandas 0.24.2
