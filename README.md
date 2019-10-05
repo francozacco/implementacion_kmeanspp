@@ -11,11 +11,11 @@ Para correr este notebook (y el modulo), se deberá crear una nueva imagen a par
 Nota: El Dockerfile fue creado a partir de la imagen provista por el repositorio oficial de jupyter (jupyter/scipy-notebook).\
 Encontrandonos en la direccion donde descargamos este Dockerfile, ejecutamos los siguientes comandos (siempre y cuando estemos utilizando alguna distribución de Linux).
 
-`docker build -t my_image .`
+`sudo docker build -t my_image .`
 
 De esta manera creamos una imagen de Docker (llamada my_image) usando el Dockerfile en cuestion, podemos chequear la existencia de la misma, ejecutando:
 
-`docker images`
+`sudo docker images`
 
 Una vez que tenemos la imagen en nuestro equipo, creamos un conteiner a partir de ella con el siguiente comando
 
