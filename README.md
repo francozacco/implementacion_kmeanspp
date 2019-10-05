@@ -5,6 +5,7 @@ Para correrlo utilizando Anaconda sera necesario crear un enviroment basado en p
 * scikit-learn 0.21.2
 * numpy 1.16.4 
 * pandas 0.24.2
+* matplotlib 3.1.0 
 
 ## Utilizando Docker
 Para correr este notebook (y el modulo), se deberá crear una nueva imagen a partir del Dockerfile que se encuentra en este repositorio.\
