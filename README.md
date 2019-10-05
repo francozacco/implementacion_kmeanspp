@@ -19,6 +19,6 @@ De esta manera creamos una imagen de Docker (llamada my_image) usando el Dockerf
 
 Una vez que tenemos la imagen en nuestro equipo, creamos un conteiner a partir de ella con el siguiente comando
 
-`sudo docker run -p 10000:8888 my_image:latest`
+`sudo docker run -p 8888:8888 my_image:latest`
 
 Por ultimo copiar en nuestro navegador la dirección que se nos mostrará.
