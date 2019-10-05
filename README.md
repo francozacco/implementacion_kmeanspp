@@ -7,8 +7,8 @@ Para correrlo utilizando Anaconda sera necesario crear un enviroment basado en p
 * pandas 0.24.2
 
 ## Utilizando Docker
-Para correr este notebook (y el modulo), se deberá crear una nueva imagen a partir del Dockerfile que se encuentra en este repositorio.
-Nota: El Dockerfile fue creado a partir de la imagen provista por el repositorio oficial de jupyter (jupyter/scipy-notebook).
+Para correr este notebook (y el modulo), se deberá crear una nueva imagen a partir del Dockerfile que se encuentra en este repositorio.\
+Nota: El Dockerfile fue creado a partir de la imagen provista por el repositorio oficial de jupyter (jupyter/scipy-notebook).\
 Encontrandonos en la direccion donde descargamos este Dockerfile, ejecutamos los siguientes comandos (siempre y cuando estemos utilizando alguna distribución de Linux).
 
 `docker build -t my_image .`
